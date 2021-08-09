@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0 10%;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/*  Color Section  */
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.chinese-violet {
+    background-color: #816E94;
+    color: #fff;
+}
+
+.heat-wave {
+    background-color: #F17300;
+    color: #fff;
+}
+
+.nyanza {
+    background-color: #E7F3CE;
+    color: #000;
+}
+
+.isabelline {
+    background-color: #F7F4F3;
+    color: #000;
+}
+
+/*  Font Section  */
+
+.font-container {
+    width: 100%;
+}
+
+.font-panel {
+    padding: 0.5em;
+}
+
+.font-name {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed', Sans-Serif;
+}
+
+.cabin {
+    Font-Family: 'Cabin', Sans-Serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/*  Text Section  */
+
+.text-container {
+    width: 100%;
+}
+
+.text-panel {
+    padding: 0.5em;
+}
+
+.text-panel h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 1em;
+}
+
+.text-panel h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.text-panel p {
+    font-family: Cabin, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
